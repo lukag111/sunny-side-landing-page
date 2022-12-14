@@ -342,16 +342,16 @@ footer img{
         margin-bottom: 200px;
     }
 
-    .menu-mobile::before {
+    .menu-mobile::after {
         display: block;
         content: "";
         position: absolute;
         top: -20px;
-        left: 300px;
+        left: 95%;
         transform: translateX(-50%);
         width: 0;
         height: 0;
-        border-left: 30px solid transparent;
+        border-left: 33px solid transparent;
         border-right: 0 solid transparent;
         border-bottom: 30px solid #EEEEEE;
     }
