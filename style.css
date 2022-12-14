@@ -300,9 +300,7 @@ footer img{
 .social li:hover{
     filter: brightness(0) invert(1);
 }
-.transform{
-    grid-row: 1;
-}
+
 .hamburger-btn{
 
 
@@ -351,7 +349,7 @@ footer img{
         transform: translateX(-50%);
         width: 0;
         height: 0;
-        border-left: 33px solid transparent;
+        border-left: 31px solid transparent;
         border-right: 0 solid transparent;
         border-bottom: 30px solid #EEEEEE;
     }
@@ -359,7 +357,10 @@ footer img{
     .btnC{
         background-color:hsl(51, 100%, 49%) ;
         padding: 10px 20px;
-        margin: 0px 90px 30px 90px;
+        margin: 0 90px 30px 90px;
+    }
+    .transform{
+        grid-row: 1;
     }
     .menu{
         display: none;
